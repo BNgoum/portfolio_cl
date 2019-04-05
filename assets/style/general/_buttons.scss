@@ -1,0 +1,27 @@
+#{$projet}_btn {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+
+    &_burger_menu {
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        left: 5rem;
+        top: 50%;
+        -moz-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: .875rem;
+        height: .875rem;
+        width: $space-l;
+        height: $space-l;
+        z-index: 999;
+    }
+
+    &_croix {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+    }
+}

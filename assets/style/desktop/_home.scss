@@ -1,0 +1,28 @@
+#{$projet} {
+    &_home {
+        position: relative;
+        padding: 0 5rem 3.75rem;
+        height: 100vh;
+    }    
+
+    &_sous_titre {
+        position: fixed;
+        right: 2rem;
+        top: 50%;
+        font-weight: $font-weight-regular;
+        font-size: $fonts-l;
+        color: $color-gray;
+        -moz-transform: rotate(-90deg) translateY(-50%);
+        -webkit-transform: rotate(-90deg) translateY(-50%);
+        transform: rotate(-90deg) translateY(-50%);
+    }
+
+    &_icon_bottom {
+        position: absolute;
+        bottom: 3.75rem;
+        left: 50%;
+        -moz-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+}

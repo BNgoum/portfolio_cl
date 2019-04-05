@@ -1,0 +1,103 @@
+#{$projet}_projet_sng {
+
+    &_bg {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+    }
+
+    &_step1 {
+        display: flex;
+        align-items: center;
+        margin-top: 6.25rem;
+
+        &_wrapperImg {
+            position: relative;
+            max-width: 34.375rem;
+            margin-left: $space-xl;
+        }
+
+        &_wrapperTexte {
+            position: relative;
+            max-width: 12.25rem;
+            padding-right: $space-l;
+
+            &::after {
+                content: '';
+                position: absolute;
+                right: 0;
+                top: 50%;
+                -moz-transform: translateY(-50%);
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+                width: 2px;
+                height: 120%;
+                background-color: $color-sng
+            }
+        }
+
+        &--bg1 {
+            width: 100%;
+        }
+
+        &--bg2 {
+            position: absolute;
+            bottom: -100px;
+            left: -100px;
+            width: 60%;
+        }
+    }
+
+    &_step2 {
+        display: flex;
+        align-items: center;
+        margin-top: 12rem;
+
+        &_wrapperImg {
+            display: flex;
+            align-items: center;
+            padding-right: $space-xl;
+        }
+
+        &_wrapperTexte {
+            position: relative;
+            padding-left: $space-l;
+            max-width: 14.5625rem;
+
+            &::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 50%;
+                -moz-transform: translateY(-50%);
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+                width: 2px;
+                height: 120%;
+                background-color: $color-sng
+            }
+        }
+
+        &--bg1 {
+            max-width: 22.1875rem;
+        }
+        
+        &--bg2 {
+            max-width: 8.625rem;
+        }
+    }
+
+    &--titre {
+        font-size: .9375rem;
+        font-weight: $font-weight-bold;
+        margin-bottom: .5625rem;
+        text-transform: uppercase;
+    }
+
+    &--texte {
+        font-size: .8125rem;
+    }
+
+    
+}
