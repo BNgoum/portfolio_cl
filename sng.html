@@ -10,14 +10,27 @@
 </head>
 <body>
     <header class="cl_header_projet">
-        <button class="cl_header_projet_btn">
+        <a href="./index.html" class="cl_header_projet_btn">
             <span class="cl_icon cl_icon_logo"></span>
-        </button>
+        </a>
     </header>
 
     <section class="cl_projet">
-        <button class="cl_btn cl_btn_burger_menu"><span class="cl_icon cl_icon_burger_menu"></span></button>
+        <button id="btn-burger-menu" class="cl_btn cl_btn_burger_menu"><span class="cl_icon cl_icon_burger_menu"></span></button>
 
+        <div id="menu-content" class="cl_menu">
+            <div class="cl_menu_container">
+                <h2 class="cl_menu_titre">Menu</h2>
+
+                <ul class="cl_menu_rubriques">
+                    <li class="cl_menu_rubriques--item"><a href="./index.html">Home</a></li>
+                    <li class="cl_menu_rubriques--item"><a href="./competences.html">A propos</a></li>
+                    <li class="cl_menu_rubriques--item"><a href="./index.html#all-projects">Tous les projets</a></li>
+                </ul>
+
+                <button class="cl_btn cl_btn_croix"><span id="btn-fermer-menu" class="cl_icon cl_icon_croix"></span></button>
+            </div>
+        </div>
         <aside class="cl_projet--aside"></aside>
 
         <section class="cl_projet--container">
@@ -81,5 +94,8 @@
 
         <h3 class="cl_sous_titre">Galéa & Associés</h3>
     </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./assets/script/index.js"></script>
 </body>
 </html>

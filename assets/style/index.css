@@ -243,16 +243,20 @@ button {
   max-width: 850px;
   flex: 6;
 }
+.cl_projets--link {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .cl_projets--aside {
   height: 100%;
   flex: 1;
 }
 .cl_projets--item {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 233px;
   flex: 1 1 300px;
   max-width: 425px;

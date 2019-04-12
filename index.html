@@ -17,9 +17,9 @@
                 <h2 class="cl_menu_titre">Menu</h2>
 
                 <ul class="cl_menu_rubriques">
-                    <li class="cl_menu_rubriques--item"><a href="#">Home</a></li>
-                    <li class="cl_menu_rubriques--item"><a href="#">A propos</a></li>
-                    <li class="cl_menu_rubriques--item"><a href="#">Tous les projets</a></li>
+                    <li class="cl_menu_rubriques--item"><a href="./index.html">Home</a></li>
+                    <li class="cl_menu_rubriques--item"><a href="./competences.html">A propos</a></li>
+                    <li class="cl_menu_rubriques--item"><a href="./index.html#all-projects">Tous les projets</a></li>
                 </ul>
 
                 <button class="cl_btn cl_btn_croix"><span id="btn-fermer-menu" class="cl_icon cl_icon_croix"></span></button>
@@ -35,45 +35,57 @@
 
     <section class="cl_projets">
         <header class="cl_header">
-            <button class="cl_header_btn">
+            <a href="./index.html" class="cl_header_btn">
                 <span class="cl_icon cl_icon_logo"></span>
-            </button>
+            </a>
         </header>
 
         <aside class="cl_projets--aside"></aside>
 
-        <section class="cl_projets--container">
+        <section id="all-projects" class="cl_projets--container">
             <article class="cl_projets--full-bg"></article>
 
             <article class="cl_projets--item cl_block--xs">
-                <h3 class="cl_projets--titre">Plenty of Us</h3>
-                <p class="cl_projets--sous-titre">Application de rencontres</p>
-                <img src='./assets/img/plentyofus.jpg' alt="Illustration du projet Plenty of Us" class="cl_projets--bg" />
+                <a class="cl_projets--link" href="./plentyofus.html">
+                    <h3 class="cl_projets--titre">Plenty of Us</h3>
+                    <p class="cl_projets--sous-titre">Application de rencontres</p>
+                    <img src='./assets/img/plentyofus.jpg' alt="Illustration du projet Plenty of Us" class="cl_projets--bg" />
+                </a>
             </article>
             <article class="cl_projets--item cl_block--xl">
-                <h3 class="cl_projets--titre">Galea & Associés</h3>
-                <p class="cl_projets--sous-titre">Animation corporate</p>
-                <img src='./assets/img/galea.jpg' alt="Illustration du projet Galéa & Associés" class="cl_projets--bg" />
+                <a class="cl_projets--link" href="./galea.html">
+                    <h3 class="cl_projets--titre">Galea & Associés</h3>
+                    <p class="cl_projets--sous-titre">Animation corporate</p>
+                    <img src='./assets/img/galea.jpg' alt="Illustration du projet Galéa & Associés" class="cl_projets--bg" />
+                </a>
             </article>
             <article class="cl_projets--item cl_block--m">
-                <h3 class="cl_projets--titre">Sneakers And Go</h3>
-                <p class="cl_projets--sous-titre">Location de baskets</p>
-                <img src='./assets/img/sneakersandgo.jpg' alt="Illustration du projet Sneakers and Go" class="cl_projets--bg" />
+                <a class="cl_projets--link" href="./sng.html">
+                    <h3 class="cl_projets--titre">Sneakers And Go</h3>
+                    <p class="cl_projets--sous-titre">Location de baskets</p>
+                    <img src='./assets/img/sneakersandgo.jpg' alt="Illustration du projet Sneakers and Go" class="cl_projets--bg" />
+                </a>
             </article>
             <article class="cl_projets--item cl_block--s">
-                <h3 class="cl_projets--titre">Titre</h3>
-                <p class="cl_projets--sous-titre">Sous-titre</p>
-                <img src='./assets/img/projet4.JPG' class="cl_projets--bg" />
+                <a class="cl_projets--link" href="#">
+                    <h3 class="cl_projets--titre">Titre</h3>
+                    <p class="cl_projets--sous-titre">Sous-titre</p>
+                    <img src='./assets/img/projet4.JPG' class="cl_projets--bg" />
+                </a>
             </article>
             <article class="cl_projets--item cl_block--l">
-                <h3 class="cl_projets--titre">Titre</h3>
-                <p class="cl_projets--sous-titre">Sous-titre</p>
-                <img src='./assets/img/projet5.JPG' class="cl_projets--bg" />
+                <a class="cl_projets--link" href="#">
+                    <h3 class="cl_projets--titre">Titre</h3>
+                    <p class="cl_projets--sous-titre">Sous-titre</p>
+                    <img src='./assets/img/projet5.JPG' class="cl_projets--bg" />
+                </a>
             </article>
             <article class="cl_projets--item">
-                <h3 class="cl_projets--titre">Titre</h3>
-                <p class="cl_projets--sous-titre">Sous-titre</p>
-                <img src='./assets/img/projet6.JPG' class="cl_projets--bg" />
+                <a href="#">
+                    <h3 class="cl_projets--titre">Titre</h3>
+                    <p class="cl_projets--sous-titre">Sous-titre</p>
+                    <img src='./assets/img/projet6.JPG' class="cl_projets--bg" />
+                </a>
             </article>
         </section>
 
