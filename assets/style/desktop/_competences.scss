@@ -1,15 +1,41 @@
 #{$projet}_apropos_competences {
-    &--navigation {
-
-    }
-
     &--content {
-
+        margin-left: 15%;
     }
 
-    &--titre {
-        font-size: 1.25rem;
-        color: $color-red;
-        text-transform: uppercase;
+    &--wrapper {
+        margin-bottom: 3.75rem;
+    }
+
+    &--item {
+        display: flex;
+        margin-bottom: 1.25rem;
+    }
+
+    &--label {
+        font-size: .9375rem;
+        color: $color-lightblack;
+        min-width: 8.125rem;
+        letter-spacing: 1px;
+    }
+
+    &_dots {
+        display: flex;
+        align-items: center;
+        margin-right: 1.875rem;
+        
+        &--item {
+            width: .625rem;
+            height: .625rem;
+            border: 1px solid $color-lightblack;
+            background-color: #fff;
+            margin-right: .625rem;
+            border-radius: 50%;
+
+            &.is-full {
+                background-color: $color-red;
+                border-color: $color-red;
+            }
+        }
     }
 }

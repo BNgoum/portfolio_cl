@@ -29,6 +29,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'roboto';
+    src: url($path-fonts + 'RobotoCondensed-Light.eot');
+    src: url($path-fonts + 'RobotoCondensed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
 $fonts-s: .5rem;
 $fonts-m: 1rem;
 $fonts-l: 1.875rem;

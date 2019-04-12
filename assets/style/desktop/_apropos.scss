@@ -1,0 +1,29 @@
+#{$projet}_apropos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &--navigation {
+        text-align: right;
+
+        &-item {
+            display: block;
+            color: $color-gray;
+            font-size: 1.5625rem;
+            font-style: $font-weight-italic;
+            margin-bottom: 1.875rem;
+
+            &.is-active {
+                font-size: 3.125rem;
+                color: #000;
+                font-weight: $font-weight-bold;
+            }
+        }        
+    }
+
+    &--titre {
+        font-size: 1.25rem;
+        color: $color-red;
+        text-transform: uppercase;
+    }
+}
